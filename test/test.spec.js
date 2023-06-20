@@ -15,4 +15,9 @@ describe("add function", () => {
     const result = add(-5, 3);
     expect(result).toBe(-2);
   });
+
+  it("should return eight", () => {
+    const result = add(5, 3);
+    expect(result).toBe(8);
+  });
 });
