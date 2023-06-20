@@ -7,7 +7,7 @@ describe("add function", () => {
   });
 
   it("should return seven", () => {
-    const result = subtract(0, 7);
+    const result = subtract(7,0);
     expect(result).toBe(7);
   });
 
