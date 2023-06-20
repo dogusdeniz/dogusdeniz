@@ -1,4 +1,4 @@
-const { add } = require("../app/calculator.js");
+const { add, subtract } = require("../app/calculator.js");
 
 describe("add function", () => {
   it("should return the sum of two numbers", () => {
