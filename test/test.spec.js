@@ -4,9 +4,9 @@ describe("add function", () => {
     expect(result).toBe(5);
   });
 
-  it("should return zero when one of the numbers is zero", () => {
+  it("should return seven", () => {
     const result = 0 + 7;
-    expect(result).toBe(0);
+    expect(result).toBe(7);
   });
 
   it("should return a negative number when one of the numbers is negative", () => {
